@@ -1,0 +1,8 @@
+<appian-plugin name="JSON Utilities" key="com.appiancorp.ps.plugins.jsonutilities">
+    <plugin-info>
+        <description>A group of utilities for working with JSON</description>
+        <version>1.0.0</version>
+    </plugin-info>
+    <function-category key="jsonCategory" />
+    <function key="jsonFunctions" class="com.appiancorp.ps.plugins.jsonutilities.JsonFunctions" />
+</appian-plugin>
