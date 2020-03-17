@@ -1,8 +1,11 @@
-<appian-plugin name="JSON Utilities" key="com.appiancorp.ps.plugins.jsonutilities">
-    <plugin-info>
-        <description>A group of utilities for working with JSON</description>
-        <version>1.0.0</version>
-    </plugin-info>
+<appian-plugin name="JSON Utilities" key="com.appiancorp.ps.plugin.jsonutilities">
+	<plugin-info>
+    	<description>JSON Utilities</description>
+    	<vendor name="Appian Corporation" url="http://www.appian.com" />
+    	<version>1.0.0</version>
+    	<application-version min="19.4.0" />
+  	</plugin-info>
+  	
     <function-category key="jsonCategory" />
-    <function key="jsonFunctions" class="com.appiancorp.ps.plugins.jsonutilities.JsonFunctions" />
+    <function key="jsonFunctions" class="com.appiancorp.ps.plugin.jsonutilities.JsonFunctions" />
 </appian-plugin>
